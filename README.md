@@ -18,9 +18,9 @@ In this activity we revisit an activity from earlier in the semester.  Write an 
 
 ### Program Design
 
-<img src="images/sphere-calculator-screenshot.png" alt="Sphere Calculator Screenshot" width="398">
+The screenshot below shows a sample GUI for this activity.  You may use the same layout or design your own.  Either way, your program must include the GUI components and functional behaviors listed here.
 
-The screenshot above shows a sample GUI for this activity.  You may use the same layout or design your own.  Either way, your GUI must contain the following components
+<img src="images/sphere-calculator-screenshot.png" alt="Sphere Calculator Screenshot" width="398">
 
 + **JButton:** You must include a JButton that will calculate the surface area and volume based upon the radius value stored in the JTextField. See the error handling section below for how to address unexpected values.
 + **JTextField:** You must include a JTextField that will allow the user to specify a radius value. Pressing enter in this field should trigger the same result as clicking the JButton.
