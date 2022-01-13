@@ -28,7 +28,14 @@ The screenshot below shows a sample GUI for this activity.  You may use the same
 + **JLabel:** You must include a JLabel that includes the tagged value for surface area
 
 ### Error Handling
-When the Calculate JButton is pressed or when enter is pressed in the JTextField, it will read the current values from the radius JTextField.  If the user specified a non-numerical value for the volume, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter numbers only!".  If the user specified a negative number, display a JOptionPane with the message "Please enter positive values only!".
+- When the Calculate JButton is pressed or when enter is pressed in the JTextField, it will read the current values from the radius JTextField.  If the user specified a non-numerical value for the volume, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter numbers only!".    
+
+<img src="images/sphere-calculator-numbers-only.png" alt="Sphere Calculator Screenshot" width="398">
+
+- If the user specified a negative number, display a JOptionPane with the message "Please enter positive values only!".
+
+<img src="images/sphere-calculator-positive-numbers.png" alt="Sphere Calculator Screenshot" width="398">
+
 
 ### Implementation Guide
 1. Expand the folder named  SphereCalculator and create a new file named SphereCalculator.java and open it.
