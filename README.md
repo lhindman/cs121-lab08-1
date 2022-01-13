@@ -57,6 +57,7 @@ Create a new file called TriangleCalculator.java, add a class called TriangleCal
 
 + **JButton:** You must include a JButton that will calculate the area based upon the values entered for each side in the JTextFields. See the error handling section below for how to address unexpected values.
 + **JTextField(s):** You must include JTextFields that will allow the user to specify the lengths of the sides (a, b and c). These values should be parsed using Double.parseDouble().
++ **JLabel(s):** You must include JLabels to take each JTextField to identify sides a, b and c.
 + **JLabel:** You must include a JLabel that includes the tagged value for area
 
 ### Error Handling
