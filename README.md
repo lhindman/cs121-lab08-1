@@ -1,7 +1,6 @@
-# Lab08 Guide
+# Module 8 Lab Guide (part 1)
 ## Getting Started
 [Lab Introduction Video](https://youtu.be/4qre8IRmaUw)
-- Please clone the [Mod08 Code Examples](https://github.com/lhindman/cs121-mod08-examples.git). 
 
 ### Code Style Requirements
 Please review the [CS121 Style Guide](https://docs.google.com/document/d/1LWbGQBKkApnNAzzgwOSvRM03DmhYWx5yEfecT2WXfjI/edit?usp=sharing) and apply it in all lab activities and projects this semester. Coding Style will assessed as part of your lab and project grades. 
@@ -10,32 +9,29 @@ Please review the [CS121 Style Guide](https://docs.google.com/document/d/1LWbGQB
 - Code must compile without warnings using openjdk11
 - Code must run without errors or warnings on safe-path and edge test cases
 - More to come as we learn about input validation and exception handling  
-## Activity 1 - Dynamic Die
+
+## Lab Warmup - Sphere Calculator
 ### Problem Description
-In this activity, you will using the Die class and the DieButton class that we developed in the deeper look videos. This is an example of code reuse which is core principle of Object Oriented Programming. For this activity you will create a class named DynamicDie that will enable the end-user to customize both the skin and the number of sides of a single DieButton. Three custom die face image sets (skins) have been provided for up to 20 sides on a single die. They are called Triangle, Diamond and Honeycomb and you can find them in the A1-DynamicDie folder.
+In this activity we revisit an activity from earlier in the semester.  Write an application that prompts the user for the radius of a sphere and calculates its volume and surface area.  Use the following formulas, in which r represents the sphere's radius.  Display the results to four decimal places using JLabels and thethe DecimalFormat class. The calculated values should be updated with the user clicks the Calculate button or when the user presses enter in the text field.
 
-<img src="images/Lab08-DynamicDie.png" alt="Dynamic Die Screenshot">
+<img src="images/volume-and-surface-area-formula.png" alt="Sphere Formulas" width="350">
 
-### Requirements
+### Program Design
 The screenshot above shows a sample GUI for this activity.  You may use the same layout or design your own.  Either way, your GUI must contain the following components
 
-+ **DieButton:** You must include a single die button that roles when clicked.  When the program begins, the DieButton should have 6 sides and use the Triangle skin.
-+ **JButton:** You must include a JButton that will role the die when clicked.
-+ **JButton:** You must include a JButton that will reconfigure the exiting DieButton by first removing it from the parent panel, creating a new DieButton object with the specified number of sides and skin, then adding it back to the parent panel.  This button will also need to *revalidate* and *repaint* the parent panel to ensure the updated DieButton is displayed properly.
-+ **JComboBox:** You must include a JComboBox that will allow the user to chose one of the three available skins from a dropdown list.
-+ **JTextField:** You must include a JTextField to allow the user to type in the number of sides they want for their die.  Valid values are in the range of 2 through 20.  See the error handling section below for how to address unexpected values.
-+ **JLabel:** You must include a JLabel that contains the text "Style" and position it near the JComboBox.
-+ **JLabel:** You must include a JLabel that contains the text "Sides" and position it near the JTextField.
++ **JButton:** You must include a JButton that will calculate the surface area and volume based upon the radius value stored in the JTextField. See the error handling section below for how to address unexpected values.
++ **JTextField:** You must include a JTextField that will allow the user to specify a radius value. Pressing enter in this field should trigger the same result as clickign the JButton.
++ **JLabel:** You must include a JLabel that includes the tagged value for volume
++ **JLabel:** You must include a JLabel that includes the tagged value for surface area
 
 ### Error Handling
-When the reconfigure JButton is pressed, it will read the current values from the JTextField and the JComboBox.  If the user specified a non-integer value for the number of sides, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter an integer value!".  If the user specified an integer value outside of the valid range [2 - 20], display a JOptionPane with the message "Please enter values in the range of 2 - 20 inclusive!".
+When the Calculate JButton is pressed or when enter is pressed in the JTextField, it will read the current values from the radius JTextField.  If the user specified a non-numerical value for the volume, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter numbers only!".  If the user specified a negative number, display a JOptionPane with the message "Please enter positive values only!".
 
 ### Implementation Guide
-1. Expand the folder named A1-DynamicDie and create a new file named DynamicDie.java
-2. Copy Die.java and DieButton.java from the [Mod08 Code Examples](https://github.com/lhindman/cs121-mod08-examples.git) into the A1-DynamicDie folder.
-3. Design a program to satisfy the requirement in the Problem Description and enter the program code in DynamicDie.java
+1. Expand the folder named  SphereCalculatorGUI and create a new file named SphereCalculatorGUI.java and open it.
+3. Design a program to satisfy the requirements in the Problem Description and the Program Design above
 4. Test the program and pay particular attention to boundary/edge cases and invalid input.
-5. Commit the changes to your local repository with a message stating that Activity 1 is completed.
+5. Commit the changes to your local repository with a message stating that Lab Warmup is completed.
 6. Push the changes from your local repository to the github classroom repository.
 
 ## Activity 2 - Cup of Dice
