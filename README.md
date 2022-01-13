@@ -30,11 +30,11 @@ Create a new file called SphereCalculator.java, add a class called SphereCalcula
 ### Error Handling
 - When the Calculate JButton is pressed or when enter is pressed in the JTextField, it will read the current values from the radius JTextField.  If the user specified a non-numerical value for the volume, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter numbers only!".    
 
-<img src="images/sphere-calculator-numbers-only.png" alt="Sphere Calculator Screenshot" width="398">
+<img src="images/sphere-calculator-numbers-only.png" alt="Numbers only message" width="398">
 
 - If the user specified a negative number, display a JOptionPane with the message "Please enter positive values only!".
 
-<img src="images/sphere-calculator-positive-numbers.png" alt="Sphere Calculator Screenshot" width="398">
+<img src="images/sphere-calculator-positive-numbers.png" alt="Positive numbers only message" width="398">
 
 
 ### Implementation Guide
@@ -60,7 +60,17 @@ Create a new file called TriangleCalculator.java, add a class called TriangleCal
 + **JLabel:** You must include a JLabel that includes the tagged value for area
 
 ### Error Handling
-When the Calculate JButton is pressed it will read the current values for the side lengths from the JTextFields.  If the user specified a non-numerical value for any of the sides, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter numbers only!".  If the user specified a negative number, display a JOptionPane with the message "Please enter positive values only!".
+- When the Calculate JButton is pressed or when enter is pressed in the JTextField, it will read the current values from the radius JTextField.  If the user specified a non-numerical value for the volume, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter numbers only!".    
+
+<img src="images/triangle-calculator-numbers-only.png" alt="Numbers only messaget" width="398">
+
+- If the user specified a negative number, display a JOptionPane with the message "Please enter positive values only!".
+
+<img src="images/triangle-calculator-positive-numbers.png" alt="Positive numbers only message" width="398">.
+
+- If the user specified side lengths that do not form a triangle, such as a:9, b:20, c:30, display a JOptionPane with the message "Side lengths do not form a triangle!".
+
+<img src="images/triangle-calculator-not-triangle.png" alt="Not a triangle message" width="398">.
 
 ### Implementation Guide
 1. Expand the folder named TriangleCalculator and create a new file named TriangleCalculator.java and open it. 
