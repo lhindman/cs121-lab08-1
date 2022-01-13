@@ -4,10 +4,13 @@
 			"path": "LabGuide"
 		},
 		{
-			"path": "A1-DynamicDie"
+			"path": "SphereCalculator"
 		},
 		{
-			"path": "A2-CupOfDice"
+			"path": "TriangleCalculator"
+		},
+		{
+			"path": "CodingJournal"
 		}
 	],
 	"settings": {}
