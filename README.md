@@ -18,7 +18,7 @@ In this activity we revisit an activity from earlier in the semester.  Write an 
 
 ### Program Design
 
-<img src="images/sphere-calculator-screenshot.png" alt="Sphere Calculator Screenshot" width="350">
+<img src="images/sphere-calculator-screenshot.png" alt="Sphere Calculator Screenshot" width="398">
 
 The screenshot above shows a sample GUI for this activity.  You may use the same layout or design your own.  Either way, your GUI must contain the following components
 
