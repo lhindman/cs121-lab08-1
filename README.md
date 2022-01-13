@@ -22,10 +22,10 @@ Create a new file called SphereCalculator.java, add a class called SphereCalcula
 
 <img src="images/sphere-calculator-screenshot.png" alt="Sphere Calculator Screenshot" width="398">
 
-+ **JButton:** You must include a JButton that will calculate the surface area and volume based upon the radius value stored in the JTextField. See the error handling section below for how to address unexpected values.
-+ **JTextField:** You must include a JTextField that will allow the user to specify a radius value. Pressing enter in this field should trigger the same result as clicking the JButton.
-+ **JLabel:** You must include a JLabel that includes the tagged value for volume
-+ **JLabel:** You must include a JLabel that includes the tagged value for surface area
++ **JButton:** Include a JButton that will calculate the surface area and volume based upon the radius value stored in the JTextField. See the error handling section below for how to address unexpected values.
++ **JTextField:** Include a JTextField that will allow the user to specify a radius value. Pressing enter in this field should trigger the same result as clicking the JButton.
++ **JLabel:** Include a JLabel that includes the tagged value for volume
++ **JLabel:** Include a JLabel that includes the tagged value for surface area
 
 ### Error Handling
 - When the Calculate JButton is pressed or when enter is pressed in the JTextField, it will read the current values from the radius JTextField.  If the user specified a non-numerical value for the volume, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter numbers only!".    
@@ -55,10 +55,10 @@ Create a new file called TriangleCalculator.java, add a class called TriangleCal
 
 <img src="images/triangle-calculator-screenshot.png" alt="Triangle Calculator Screenshot" width="350">
 
-+ **JButton:** You must include a JButton that will calculate the area based upon the values entered for each side in the JTextFields. See the error handling section below for how to address unexpected values.
-+ **JTextField(s):** You must include JTextFields that will allow the user to specify the lengths of the sides (a, b and c). These values should be parsed using Double.parseDouble().
-+ **JLabel(s):** You must include JLabels to take each JTextField to identify sides a, b and c.
-+ **JLabel:** You must include a JLabel that includes the tagged value for area
++ **JButton:** Include a JButton that will calculate the area based upon the values entered for each side in the JTextFields. See the error handling section below for how to address unexpected values.
++ **JTextField(s):** Include JTextFields that will allow the user to specify the lengths of the sides (a, b and c). These values should be parsed using Double.parseDouble().
++ **JLabel(s):** Include JLabels to take each JTextField to identify sides a, b and c.
++ **JLabel:** Include a JLabel that includes the tagged value for area
 
 ### Error Handling
 - When the Calculate JButton is pressed or when enter is pressed in the JTextField, it will read the current values from the radius JTextField.  If the user specified a non-numerical value for the volume, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter numbers only!".    
