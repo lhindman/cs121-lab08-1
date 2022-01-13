@@ -18,7 +18,7 @@ In this activity we revisit an activity from earlier in the semester.  Write an 
 
 ### Program Design
 
-The screenshot below shows a sample GUI for this activity.  You may use the same layout or design your own.  Either way, your program must include the GUI components and functional behaviors listed here.
+Create a new file called SphereCalculator.java, add a class called SphereCalculator that extends JPanel and include a main() method so that this class is a driver class as well. The screenshot below shows a sample GUI for this activity.  You may use the same layout or design your own.  Either way, your program must include the GUI components and functional behaviors listed here.
 
 <img src="images/sphere-calculator-screenshot.png" alt="Sphere Calculator Screenshot" width="398">
 
@@ -50,10 +50,10 @@ In this activity we are once again revisiting an activity from earlier in the se
 
 <img src="images/heron-formula.png" alt="Heron's Formula" width="400">
 
-<img src="images/triangle-calculator-screenshot.png" alt="Triangle Calculator Screenshot" width="350">
+### Program Design
+Create a new file called TriangleCalculator.java, add a class called TriangleCalculator that extends JPanel and include a main() method so that this class is a driver class as well. The screenshot below shows a sample GUI for this activity.  You may use the same layout or design your own.  Either way, your program must include the GUI components and functional behaviors listed here.
 
-### Requirements
-The screenshot above shows a sample GUI for this activity.  You may use the same layout and general design or create your own.  Either way, your GUI must contain the following components:
+<img src="images/triangle-calculator-screenshot.png" alt="Triangle Calculator Screenshot" width="350">
 
 + **JButton:** You must include a JButton that will calculate the area based upon the values entered for each side in the JTextFields. See the error handling section below for how to address unexpected values.
 + **JTextField(s):** You must include JTextFields that will allow the user to specify the lengths of the sides (a, b and c). These values should be parsed using Double.parseDouble().
@@ -63,7 +63,7 @@ The screenshot above shows a sample GUI for this activity.  You may use the same
 When the Calculate JButton is pressed it will read the current values for the side lengths from the JTextFields.  If the user specified a non-numerical value for any of the sides, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter numbers only!".  If the user specified a negative number, display a JOptionPane with the message "Please enter positive values only!".
 
 ### Implementation Guide
-1. Expand the folder named TriangleCalculatore and create a new file named TriangleCalculator.java
+1. Expand the folder named TriangleCalculator and create a new file named TriangleCalculator.java and open it. 
 2. Design a program to satisfy the requirements in the Problem Description and the Program Design above
 3. Test the program and pay particular attention to boundary/edge cases and invalid input.
 4. Commit the changes to your local repository with a message stating that Lab Activity 1 is completed.
