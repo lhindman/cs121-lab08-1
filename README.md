@@ -12,13 +12,14 @@ Please review the [CS121 Style Guide](https://docs.google.com/document/d/1LWbGQB
 
 ## Lab Warmup - Sphere Calculator
 ### Problem Description
-In this activity we revisit an activity from earlier in the semester.  Write an application that prompts the user for the radius of a sphere and calculates its volume and surface area.  Use the following formulas, in which r represents the sphere's radius.  Display the results to four decimal places using JLabels and thethe DecimalFormat class. The calculated values should be updated with the user clicks the Calculate button or when the user presses enter in the text field.
+In this activity we revisit an activity from earlier in the semester.  Write an application that prompts the user for the radius of a sphere and calculates its volume and surface area.  Use the following formulas, in which r represents the sphere's radius.  Display the results to four decimal places using JLabels and the DecimalFormat class. The calculated values should be updated with the user clicks the Calculate button or when the user presses enter in the text field.
 
 <img src="images/volume-and-surface-area-formula.png" alt="Sphere Formulas" width="350">
 
+### Program Design
+
 <img src="images/sphere-calculator-screenshot.png" alt="Sphere Calculator Screenshot" width="350">
 
-### Program Design
 The screenshot above shows a sample GUI for this activity.  You may use the same layout or design your own.  Either way, your GUI must contain the following components
 
 + **JButton:** You must include a JButton that will calculate the surface area and volume based upon the radius value stored in the JTextField. See the error handling section below for how to address unexpected values.
