@@ -12,13 +12,13 @@ Please review the [CS121 Style Guide](https://docs.google.com/document/d/1LWbGQB
 
 ## Lab Warmup - Sphere Calculator
 ### Problem Description
-In this activity we revisit an activity from earlier in the semester.  Write an application that prompts the user for the radius of a sphere and calculates its volume and surface area.  Use the following formulas, in which r represents the sphere's radius.  Display the results to four decimal places using JLabels and the DecimalFormat class. The calculated values should be updated with the user clicks the Calculate button or when the user presses enter in the text field.
+In this activity we revisit an activity from earlier in the semester.  Write an application that prompts the user for the radius of a sphere and calculates its volume and surface area.  Use the following formulas, in which r represents the sphere's radius.  Display the results to four decimal places using **JLabel** components and the **DecimalFormat** class. The calculated values should be updated with the user clicks the Calculate button or when the user presses enter in the text field.
 
 <img src="images/volume-and-surface-area-formula.png" alt="Sphere Formulas" width="350">
 
 ### Program Design
 
-Create a new file called SphereCalculator.java, add a class called SphereCalculator that extends JPanel and include a main() method so that this class is a driver class as well. The screenshot below shows a sample GUI for this activity.  You may use the same layout or design your own.  Either way, your program must include the GUI components and functional behaviors listed here.
+Create a new file called *SphereCalculator.java*, add a class called **SphereCalculator** that extends JPanel and include a ***main()*** method so that this class is a driver class as well. The screenshot below shows a sample GUI for this activity.  You may use the same layout or design your own.  Either way, your program must include the GUI components and functional behaviors listed here.
 
 <img src="images/sphere-calculator-screenshot.png" alt="Sphere Calculator Screenshot" width="398">
 
@@ -28,17 +28,17 @@ Create a new file called SphereCalculator.java, add a class called SphereCalcula
 + **JLabel:** Include a JLabel that includes the tagged value for surface area
 
 ### Error Handling
-- When the Calculate JButton is pressed or when enter is pressed in the JTextField, it will read the current values from the radius JTextField.  If the user specified a non-numerical value for the volume, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter numbers only!".    
+- When the Calculate **JButton** is pressed or when enter is pressed in the **JTextField**, it will read the current values from the radius **JTextField**.  If the user specified a non-numerical value for the volume, you should catch the **NumberFormatException** and display a **JOptionPane** with the message "Please enter numbers only!".    
 
 <img src="images/sphere-calculator-numbers-only.png" alt="Numbers only message" width="398">
 
-- If the user specified a negative number, display a JOptionPane with the message "Please enter positive values only!".
+- If the user specified a negative number, display a **JOptionPane** with the message "Please enter positive values only!".
 
 <img src="images/sphere-calculator-positive-numbers.png" alt="Positive numbers only message" width="398">
 
 
 ### Implementation Guide
-1. Expand the folder named  SphereCalculator and create a new file named SphereCalculator.java and open it.
+1. Expand the folder named SphereCalculator and create a new file named *SphereCalculator.java* and open it.
 2. Design a program to satisfy the requirements in the Problem Description and the Program Design above
 3. Test the program and pay particular attention to boundary/edge cases and invalid input.
 4. Commit the changes to your local repository with a message stating that Lab Warmup is completed.
@@ -46,7 +46,7 @@ Create a new file called SphereCalculator.java, add a class called SphereCalcula
 
 ## Lab Activity 1 - Triangle Calculator
 ### Problem Description
-In this activity we are once again revisiting an activity from earlier in the semester.  Write an application that prompts the user to enter the lengths of the sides of a triangle. A JButton labelled Calculate should compute the area of the triangle using Heron's formula (below), in which s represents half of the perimeter of the triangle, and a, b, and c represent the lengths of the three sides. Display the area to three decimal places using a DecimalFormat object and a JLabel. Your program should NOT attempt to perform the calculation when enter is pressed in on the text fields.
+In this activity we are once again revisiting an activity from earlier in the semester.  Write an application that prompts the user to enter the lengths of the sides of a triangle. A JButton labelled Calculate should compute the area of the triangle using Heron's formula (below), in which s represents half of the perimeter of the triangle, and a, b, and c represent the lengths of the three sides. Display the area to three decimal places using a **DecimalFormat** object and a **JLabel**. Your program should NOT attempt to perform the calculation when enter is pressed in on the text fields.
 
 <img src="images/heron-formula.png" alt="Heron's Formula" width="400">
 
@@ -61,15 +61,15 @@ Create a new file called TriangleCalculator.java, add a class called TriangleCal
 + **JLabel:** Include a JLabel that includes the tagged value for area
 
 ### Error Handling
-- When the Calculate JButton is pressed or when enter is pressed in the JTextField, it will read the current values from the radius JTextField.  If the user specified a non-numerical value for the volume, you should catch the NumberFormatException and display a JOptionPane with the message "Please enter numbers only!".    
+- When the Calculate JButton is pressed, it will read the current side lenth values from the three **JTextField** components.  If the user specified a non-numerical value for the volume, you should catch the **NumberFormatException** and display a **JOptionPane** with the message "Please enter numbers only!".    
 
 <img src="images/triangle-calculator-numbers-only.png" alt="Numbers only messaget" width="398">
 
-- If the user specified a negative number, display a JOptionPane with the message "Please enter positive values only!".
+- If the user specified a negative number, display a **JOptionPane** with the message "Please enter positive values only!".
 
 <img src="images/triangle-calculator-positive-numbers.png" alt="Positive numbers only message" width="398">.
 
-- If the user specified side lengths that do not form a triangle, such as a:9, b:20, c:30, display a JOptionPane with the message "Side lengths do not form a triangle!".
+- If the user specified side lengths that do not form a triangle, such as *9*, *20*, *30*, display a **JOptionPane** with the message "Side lengths do not form a triangle!".
 
 <img src="images/triangle-calculator-not-triangle.png" alt="Not a triangle message" width="398">.
 
@@ -79,3 +79,4 @@ Create a new file called TriangleCalculator.java, add a class called TriangleCal
 3. Test the program and pay particular attention to boundary/edge cases and invalid input.
 4. Commit the changes to your local repository with a message stating that Lab Activity 1 is completed.
 5. Push the changes from your local repository to the github classroom repository.
+
