@@ -1,3 +1,4 @@
+![CS121 Banner](images/CS121-BANNER.svg)
 # Module 8 Lab Guide (part 1)
 ## Getting Started
 [Lab Introduction Video](https://youtu.be/4qre8IRmaUw)
