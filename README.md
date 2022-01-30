@@ -1,7 +1,7 @@
 ![CS121 Banner](images/CS121-BANNER.svg)
 # Module 8 Lab Guide (part 1)
 ## Getting Started
-[Lab Introduction Video](https://youtu.be/4qre8IRmaUw)
+[Lab Introduction Video](https://boisestate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3a4dedf6-e922-4062-bf23-ae2b0173992d&start=0)
 
 ### Code Style Requirements
 Please review the [CS121 Style Guide](https://docs.google.com/document/d/1LWbGQBKkApnNAzzgwOSvRM03DmhYWx5yEfecT2WXfjI/edit?usp=sharing) and apply it in all lab activities and projects this semester. Coding Style will assessed as part of your lab and project grades. 
@@ -11,7 +11,9 @@ Please review the [CS121 Style Guide](https://docs.google.com/document/d/1LWbGQB
 - Code must run without errors or warnings on safe-path and edge test cases
 - More to come as we learn about input validation and exception handling  
 
-## Lab Warmup - Sphere Calculator
+## Lab Warmup - Sphere Calculator  
+[Walkthrough Video](https://boisestate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=37e6a4c6-36c2-4aa7-b840-ae2b017d7a2a&start=0)  
+
 ### Problem Description
 In this activity we revisit an activity from earlier in the semester.  Write an application that prompts the user for the radius of a sphere and calculates its volume and surface area.  Use the following formulas, in which r represents the sphere's radius.  Display the results to four decimal places using **JLabel** components and the **DecimalFormat** class. The calculated values should be updated with the user clicks the Calculate button or when the user presses enter in the text field.
 
